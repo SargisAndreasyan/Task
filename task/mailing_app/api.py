@@ -97,5 +97,5 @@ def start_sending(request):
                                                 "text": message.mailing_list.text},
                                  headers={"Authorization": f"Bearer {token}"})
                 except:
-                    print('error')
+                    print('error!')
         time.sleep(60 * 60 * 24)
